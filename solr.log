@@ -89,3 +89,7 @@ Caused by: java.lang.NullPointerException
 	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:54)
 	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
 	... 1 more
+2019-01-16 17:38:04,815 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2019-01-16 17:38:04,815 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2019-01-16 17:38:05,052 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2019-01-16 17:38:05,374 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 321 ms
